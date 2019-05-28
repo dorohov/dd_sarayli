@@ -1,0 +1,16 @@
+.__dd {
+    &__banner {
+        &__inner {
+            min-height: 100vh;
+        }
+        &__top {
+            padding: 100px 0 25px 0;
+            &__logo {
+                max-width: 125px;
+                svg {
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
