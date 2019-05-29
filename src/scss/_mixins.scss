@@ -1,0 +1,17 @@
+@mixin bgText($img) {
+    position: relative;
+    &::after {
+        content: '';
+        position: absolute;
+        left: 0;
+        right: 0;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+        background-image: url(../../img/svg/#{$img});
+        background-position: top center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        top: 0;
+    }
+}
