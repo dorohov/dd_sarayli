@@ -187,6 +187,9 @@
             }
         }
     }
+    &__slide8 {
+        @include bgText('bg8.svg');
+    }
 }
 
 @media (max-width: 1200px) {
