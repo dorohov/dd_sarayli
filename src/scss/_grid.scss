@@ -19,6 +19,10 @@
         border-radius: 50px;
         transition: .25s all ease;
         display: inline-block;
+        cursor: pointer;
+        &.__dd__is--sm {
+            padding: 15px 45px;
+        }
         &:hover {
             background: $secondary-color;
         }
