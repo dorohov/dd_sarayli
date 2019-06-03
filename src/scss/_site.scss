@@ -1,4 +1,10 @@
 .__dd {
+    &__anim {
+        opacity: 0;
+    }
+    &__is--show {
+        opacity: 1;
+    }
     &__is--bg-grey {
         background: $bg-grey;
         .__dd__num {
